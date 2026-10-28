@@ -2,7 +2,7 @@
 
 This repository contains game configuration, with no executable code or build step.
 
-`UI_AEROLAMAH_LO1.ini` owns window placement, appearance, visibility, and chat routing. All `HotButtonWnd` sections come from Aerocell's backup; the remaining sections come from Lamah's template, except ChatManager, which adds the Pet tab and routes pet-specific filters to it.
+`UI_AEROLAMAH_LO1.ini` owns window placement, appearance, visibility, and chat routing. It is a snapshot of Aerocell's saved UI after the user finished arranging windows on October 28, 2026. It retains the Lamah-derived chat setup and the added Pet tab with its five pet-specific filter routes.
 
 `AEROLAMAH_LO1.ini` owns character-level settings. Its `HotButtons` sections, `Socials`, and `SpellLoadouts` come from Aerocell's backup. Socials accompany the buttons because buttons reference those macros. The remaining sections come from Lamah's template.
 
