@@ -21,6 +21,10 @@ Hotbuttons include character-specific item references, abilities, and macros. Ke
 
 The currency-scrolling change has not been implemented. Custom inventory XML and map packs are not bundled. The game command `/taskoverlay` toggles the task overlay; its hidden state has not been baked into this template.
 
+## Pet chat tab
+
+The combat chat container includes a Pet tab for pet melee messages, rampage/flurry, critical hits, spells, and responses. It uses ChannelMap entries 43, 44, 45, 51, and 52. Some pet spell damage shares the player's direct-damage critical filter; that shared filter stays in its existing tab. Mappings follow the [EverQuest Legends chat filter editor](https://eqlegends.tools/chat-filters/).
+
 ## Source and verification
 
 Based on [LamahHerder/EQLegends](https://github.com/LamahHerder/EQLegends), commit `9fb89e7b71b277c6492e049fb5ec16d76a0f7677`. The upstream MIT license is retained in [LICENSE](LICENSE).
