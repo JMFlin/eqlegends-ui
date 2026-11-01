@@ -14,12 +14,12 @@ The local installation used `C:\Users\Public\Daybreak Game Company\Installed Gam
 
 ## Contents
 
-- `UI_AEROLAMAH_LO1.ini`: Aerocell's saved window positions, sizes, visibility, and three chat containers, including the Pet tab. Saved by the running game on November 1, 2026 at 14:56.
-- `AEROLAMAH_LO1.ini`: Lamah's character-settings baseline with Aerocell's five populated hotbars, socials, and saved spell sets.
-- `eqclient.ini`: account-wide client settings, including video, options, chat colors, chat filters, and key bindings. Saved when the game exited on November 1, 2026 at 21:17.
+- `UI_AEROLAMAH_LO1.ini`: Aerocell's saved window positions, sizes, visibility, and three chat containers, including the Pet tab. Copied from the live `UI_Aerocell_freeport_LO1.ini`.
+- `AEROLAMAH_LO1.ini`: Aerocell's character settings, including hotbars, socials, spell sets, and sound and gameplay options. Copied from the live `Aerocell_freeport_LO1.ini`.
+- `eqclient.ini`: account-wide client settings, including video, options, chat colors, chat filters, and key bindings.
 - [CONTEXT.md](CONTEXT.md): file boundaries and how the layout was assembled.
 
-Hotbuttons include character-specific item references, abilities, and macros. The UI template includes the in-game window adjustments saved on November 1, 2026. The character-settings file retains the earlier hotbar, macro, and spell-set snapshot.
+Hotbuttons include character-specific item references, abilities, and macros. All three INI files are refreshed together from the live game files after the game exits. The most recent refresh was on November 1, 2026, from files written at 21:17 and 17:54.
 
 The currency-scrolling change has not been implemented. Custom inventory XML and map packs are not bundled. The game command `/taskoverlay` toggles the task overlay.
 
