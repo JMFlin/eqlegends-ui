@@ -8,22 +8,28 @@ A personal layout combining LamahHerder's window layout and chat filters with Ae
 2. Copy `UI_AEROLAMAH_LO1.ini` and `AEROLAMAH_LO1.ini` into the game directory beside `eqgame.exe`.
 3. Start the game and select **Options > Copy Layout > AEROLAMAH**. Enable hotbutton and social copying if those options are offered.
 4. Check window positions and hotbuttons for your character and screen size.
+5. For chat colors and filter toggles, exit the game and replace the `[TextColors]` and `[ChatFilters]` sections of `eqclient.ini` with the sections in `eqclient_chat.ini`. Copy Layout does not import these account-wide settings.
 
 The local installation used `C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest Legends`.
 
 ## Contents
 
-- `UI_AEROLAMAH_LO1.ini`: Aerocell's saved window positions, sizes, visibility, and three chat containers, including the Pet tab. Captured after exiting the game on October 28, 2026 at 13:31:42.
+- `UI_AEROLAMAH_LO1.ini`: Aerocell's saved window positions, sizes, visibility, and three chat containers, including the Pet tab. Saved by the running game on November 1, 2026 at 14:56.
 - `AEROLAMAH_LO1.ini`: Lamah's character-settings baseline with Aerocell's five populated hotbars, socials, and saved spell sets.
+- `eqclient_chat.ini`: the `[TextColors]` and `[ChatFilters]` sections from `eqclient.ini`, saved on November 1, 2026 at 14:52.
 - [CONTEXT.md](CONTEXT.md): file boundaries and how the layout was assembled.
 
-Hotbuttons include character-specific item references, abilities, and macros. Keyboard bindings are not included. The UI template includes the final in-game window adjustments saved on October 28, 2026. The character-settings file retains the earlier hotbar, macro, and spell-set snapshot.
+Hotbuttons include character-specific item references, abilities, and macros. Keyboard bindings are not included. The UI template includes the in-game window adjustments saved on November 1, 2026. The character-settings file retains the earlier hotbar, macro, and spell-set snapshot.
 
 The currency-scrolling change has not been implemented. Custom inventory XML and map packs are not bundled. The game command `/taskoverlay` toggles the task overlay.
 
 ## Pet chat tab
 
 The combat chat container includes a Pet tab for pet melee messages, rampage/flurry, critical hits, spells, and responses. It uses ChannelMap entries 43, 44, 45, 51, and 52. Some pet spell damage shares the player's direct-damage critical filter; that shared filter stays in its existing tab. Mappings follow the [EverQuest Legends chat filter editor](https://eqlegends.tools/chat-filters/).
+
+## Critical hits
+
+Your melee criticals (ChannelMap 30) and spell criticals (ChannelMap 38) both go to the Hits tab. The client prints a critical as a normal damage line ending in `(Critical)`. The color list calls them **Your Hits (Critical)** and **Direct Damage (Your Critical Hits)**, stored as `User_46` and `User_47` in `[TextColors]`.
 
 ## Source and verification
 
