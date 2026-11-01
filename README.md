@@ -8,7 +8,7 @@ A personal layout combining LamahHerder's window layout and chat filters with Ae
 2. Copy `UI_AEROLAMAH_LO1.ini` and `AEROLAMAH_LO1.ini` into the game directory beside `eqgame.exe`.
 3. Start the game and select **Options > Copy Layout > AEROLAMAH**. Enable hotbutton and social copying if those options are offered.
 4. Check window positions and hotbuttons for your character and screen size.
-5. For chat colors and filter toggles, exit the game and replace the `[TextColors]` and `[ChatFilters]` sections of `eqclient.ini` with the sections in `eqclient_chat.ini`. Copy Layout does not import these account-wide settings.
+5. For client options, chat colors, filter toggles, and key bindings, exit the game and copy `eqclient.ini` over the one in the game directory. Copy Layout does not import these account-wide settings.
 
 The local installation used `C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest Legends`.
 
@@ -16,10 +16,10 @@ The local installation used `C:\Users\Public\Daybreak Game Company\Installed Gam
 
 - `UI_AEROLAMAH_LO1.ini`: Aerocell's saved window positions, sizes, visibility, and three chat containers, including the Pet tab. Saved by the running game on November 1, 2026 at 14:56.
 - `AEROLAMAH_LO1.ini`: Lamah's character-settings baseline with Aerocell's five populated hotbars, socials, and saved spell sets.
-- `eqclient_chat.ini`: the `[TextColors]` and `[ChatFilters]` sections from `eqclient.ini`, saved on November 1, 2026 at 14:52.
+- `eqclient.ini`: account-wide client settings, including video, options, chat colors, chat filters, and key bindings. Saved when the game exited on November 1, 2026 at 21:17.
 - [CONTEXT.md](CONTEXT.md): file boundaries and how the layout was assembled.
 
-Hotbuttons include character-specific item references, abilities, and macros. Keyboard bindings are not included. The UI template includes the in-game window adjustments saved on November 1, 2026. The character-settings file retains the earlier hotbar, macro, and spell-set snapshot.
+Hotbuttons include character-specific item references, abilities, and macros. The UI template includes the in-game window adjustments saved on November 1, 2026. The character-settings file retains the earlier hotbar, macro, and spell-set snapshot.
 
 The currency-scrolling change has not been implemented. Custom inventory XML and map packs are not bundled. The game command `/taskoverlay` toggles the task overlay.
 

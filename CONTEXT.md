@@ -6,7 +6,7 @@ This repository contains game configuration, with no executable code or build st
 
 `AEROLAMAH_LO1.ini` owns character-level settings. Its `HotButtons` sections, `Socials`, and `SpellLoadouts` come from Aerocell's backup. Socials accompany the buttons because buttons reference those macros. The remaining sections come from Lamah's template.
 
-`eqclient_chat.ini` owns account-wide chat colors (`[TextColors]`) and filter toggles (`[ChatFilters]`). These live in `eqclient.ini`, which Copy Layout does not touch, so they are merged by hand.
+`eqclient.ini` owns account-wide client settings: video, options, chat colors (`[TextColors]`), filter toggles (`[ChatFilters]`), and key bindings. Copy Layout does not touch it, so it is copied over the game's copy by hand.
 
 Installation copies both template files into the game directory. The game's Copy Layout operation then imports the selected settings into the active character. The templates remain separate from the active character files.
 
